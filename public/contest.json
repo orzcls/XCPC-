@@ -1,0 +1,385 @@
+{
+  "contest_name": "2024四川省程序设计大赛校内选拔赛2",
+  "frozen_seconds": 3600,
+  "problem_count": 6,
+  "problem_ids": [
+    121,
+    114,
+    124,
+    123,
+    122,
+    125
+  ],
+  "contest_start_time": "2024-06-03 12:50:00+00:00",
+  "solutions": {
+    "3482ce9b8aa4bcf90caf389ad09ad115": {
+      "user_id": "107",
+      "problem_index": "5",
+      "verdict": "WA",
+      "submitted_seconds": 462
+    },
+    "2ffe9fc30724821db51bcbba9aef268d": {
+      "user_id": "109",
+      "problem_index": "2",
+      "verdict": "WA",
+      "submitted_seconds": 469
+    },
+    "c4753b7041b6440f8e118c2cc050198c": {
+      "user_id": "4",
+      "problem_index": "2",
+      "verdict": "AC",
+      "submitted_seconds": 513
+    },
+    "576c92afa68a85a2707b7101f70ebcc9": {
+      "user_id": "110",
+      "problem_index": "2",
+      "verdict": "WA",
+      "submitted_seconds": 568
+    },
+    "d8c7c260c5c1cf08f6eee7c03f41c57d": {
+      "user_id": "43",
+      "problem_index": "2",
+      "verdict": "AC",
+      "submitted_seconds": 581
+    },
+    "20591354557373dff2dec2c227e732d5": {
+      "user_id": "12",
+      "problem_index": "2",
+      "verdict": "AC",
+      "submitted_seconds": 603
+    },
+    "c3f0836ac58946a62d9eacf782060592": {
+      "user_id": "107",
+      "problem_index": "2",
+      "verdict": "AC",
+      "submitted_seconds": 729
+    },
+    "4f4a815e3fe8df3aef8f795fb72b2bfa": {
+      "user_id": "111",
+      "problem_index": "2",
+      "verdict": "WA",
+      "submitted_seconds": 752
+    },
+    "df53b6b4ef9fd7b396013a7b868ce63b": {
+      "user_id": "110",
+      "problem_index": "2",
+      "verdict": "WA",
+      "submitted_seconds": 800
+    },
+    "9bb0c66a0c4eca35b61c7304405e4dea": {
+      "user_id": "111",
+      "problem_index": "2",
+      "verdict": "WA",
+      "submitted_seconds": 804
+    },
+    "874cdf7b9ca5c05f956a7d702f30065e": {
+      "user_id": "110",
+      "problem_index": "3",
+      "verdict": "WA",
+      "submitted_seconds": 854
+    },
+    "574903c177f3839712d0fe45d856bb5e": {
+      "user_id": "109",
+      "problem_index": "2",
+      "verdict": "WA",
+      "submitted_seconds": 884
+    },
+    "4c199c54c38436369577f188066db40e": {
+      "user_id": "111",
+      "problem_index": "2",
+      "verdict": "AC",
+      "submitted_seconds": 886
+    },
+    "1dbc455195ff373adedac175fde83641": {
+      "user_id": "111",
+      "problem_index": "2",
+      "verdict": "AC",
+      "submitted_seconds": 890
+    },
+    "5bbdf1b0783bf08a22c62c9bc03a37aa": {
+      "user_id": "109",
+      "problem_index": "2",
+      "verdict": "WA",
+      "submitted_seconds": 919
+    },
+    "f50fa5d8237a88db4c0800bce54ff7b5": {
+      "user_id": "110",
+      "problem_index": "2",
+      "verdict": "AC",
+      "submitted_seconds": 1189
+    },
+    "8115b8b53467f82287e05014e4d492fe": {
+      "user_id": "8",
+      "problem_index": "2",
+      "verdict": "CE",
+      "submitted_seconds": 1253
+    },
+    "87397461c2c641b1ac5cfbdf204de8e9": {
+      "user_id": "8",
+      "problem_index": "2",
+      "verdict": "WA",
+      "submitted_seconds": 1313
+    },
+    "f854ad607705f7fc9985dbe49aebb343": {
+      "user_id": "110",
+      "problem_index": "3",
+      "verdict": "WA",
+      "submitted_seconds": 1443
+    },
+    "8f597479fe030c19ad5dc1d6e21bffa6": {
+      "user_id": "8",
+      "problem_index": "2",
+      "verdict": "WA",
+      "submitted_seconds": 1467
+    },
+    "1b1e4da7d6a1e12e1d14e2b99f9c9dc0": {
+      "user_id": "8",
+      "problem_index": "2",
+      "verdict": "WA",
+      "submitted_seconds": 1488
+    },
+    "af09850f2653ae813335a300d22d5bf0": {
+      "user_id": "109",
+      "problem_index": "2",
+      "verdict": "AC",
+      "submitted_seconds": 1528
+    },
+    "1aa36372b4c34aadda83622e209891f1": {
+      "user_id": "109",
+      "problem_index": "5",
+      "verdict": "AC",
+      "submitted_seconds": 1675
+    },
+    "ba71c3b44138a2dd0b758e650d697fbe": {
+      "user_id": "8",
+      "problem_index": "2",
+      "verdict": "AC",
+      "submitted_seconds": 1697
+    },
+    "4198ec011b29b8ecc01bcb2502e8d7c3": {
+      "user_id": "111",
+      "problem_index": "5",
+      "verdict": "AC",
+      "submitted_seconds": 1758
+    },
+    "6fad0d0c6f4f1e963e3bb4459714ff2e": {
+      "user_id": "107",
+      "problem_index": "5",
+      "verdict": "WA",
+      "submitted_seconds": 1865
+    },
+    "a3e7aebbd9b95fc8b30d6b0c45a986d2": {
+      "user_id": "107",
+      "problem_index": "5",
+      "verdict": "WA",
+      "submitted_seconds": 1988
+    },
+    "642cd19c4907381a072dfa27edd0a751": {
+      "user_id": "8",
+      "problem_index": "5",
+      "verdict": "WA",
+      "submitted_seconds": 2232
+    },
+    "f0770909c4c917c61508584a8936b0c2": {
+      "user_id": "8",
+      "problem_index": "5",
+      "verdict": "WA",
+      "submitted_seconds": 2359
+    },
+    "66c22926db000f9bdc01d3111198f8d4": {
+      "user_id": "109",
+      "problem_index": "4",
+      "verdict": "WA",
+      "submitted_seconds": 2412
+    },
+    "3595fd8dee0cadcea4b7239e02150197": {
+      "user_id": "109",
+      "problem_index": "4",
+      "verdict": "WA",
+      "submitted_seconds": 2455
+    },
+    "cc08dfd49197077bd84c31ad0d7687e5": {
+      "user_id": "110",
+      "problem_index": "3",
+      "verdict": "WA",
+      "submitted_seconds": 2874
+    },
+    "e305d7ea118eefd52764996ab5b86a7f": {
+      "user_id": "8",
+      "problem_index": "5",
+      "verdict": "WA",
+      "submitted_seconds": 2954
+    },
+    "6cc8bbe460cf40fb3bbef7d0d5e418d9": {
+      "user_id": "8",
+      "problem_index": "5",
+      "verdict": "WA",
+      "submitted_seconds": 3169
+    },
+    "feadecb9efecb4fe862998f2caf82011": {
+      "user_id": "107",
+      "problem_index": "4",
+      "verdict": "WA",
+      "submitted_seconds": 3391
+    },
+    "ceef246e710cf6e2243db654b834c1e3": {
+      "user_id": "107",
+      "problem_index": "5",
+      "verdict": "WA",
+      "submitted_seconds": 3444
+    },
+    "daca4efcb707fdf670896dc17d799992": {
+      "user_id": "110",
+      "problem_index": "3",
+      "verdict": "WA",
+      "submitted_seconds": 3675
+    },
+    "ece207932d9a0609f3c2b79c839c1597": {
+      "user_id": "107",
+      "problem_index": "5",
+      "verdict": "WA",
+      "submitted_seconds": 3935
+    },
+    "fc9a6efe478424f86739fe1df2de4899": {
+      "user_id": "111",
+      "problem_index": "6",
+      "verdict": "CE",
+      "submitted_seconds": 4091
+    },
+    "8cb7ce8f563a5f80ddf3d157b7e0e3e1": {
+      "user_id": "8",
+      "problem_index": "5",
+      "verdict": "AC",
+      "submitted_seconds": 4099
+    },
+    "e5107c7466ed59b08fc066f19db530d8": {
+      "user_id": "107",
+      "problem_index": "5",
+      "verdict": "WA",
+      "submitted_seconds": 4324
+    },
+    "79e63c8843e5ab8118a1a9adb800c33a": {
+      "user_id": "43",
+      "problem_index": "1",
+      "verdict": "AC",
+      "submitted_seconds": 4416
+    },
+    "9b6fc8aa51b2ded8a0f9b95fae1546c9": {
+      "user_id": "107",
+      "problem_index": "5",
+      "verdict": "WA",
+      "submitted_seconds": 4588
+    },
+    "27c0bb2bf491030c4aff8a663dbcbd4e": {
+      "user_id": "4",
+      "problem_index": "4",
+      "verdict": "AC",
+      "submitted_seconds": 4650
+    },
+    "a48a8d2517d2be119545645aadf5f5a9": {
+      "user_id": "107",
+      "problem_index": "5",
+      "verdict": "WA",
+      "submitted_seconds": 5154
+    },
+    "8a5518eedf94c6ca054e727fcfd926d1": {
+      "user_id": "107",
+      "problem_index": "5",
+      "verdict": "AC",
+      "submitted_seconds": 5323
+    },
+    "88372c8304ae58e331de32e893bc7fda": {
+      "user_id": "43",
+      "problem_index": "6",
+      "verdict": "WA",
+      "submitted_seconds": 6214
+    },
+    "7e093f145756514314b22484adf00506": {
+      "user_id": "4",
+      "problem_index": "5",
+      "verdict": "WA",
+      "submitted_seconds": 6377
+    },
+    "e1aa45a1071610d9411d9277c25d963d": {
+      "user_id": "43",
+      "problem_index": "6",
+      "verdict": "WA",
+      "submitted_seconds": 6478
+    },
+    "6b813c6433b1a291de931dddb347b99d": {
+      "user_id": "4",
+      "problem_index": "5",
+      "verdict": "AC",
+      "submitted_seconds": 6509
+    },
+    "ade9df5106495750582f7af5228c6b82": {
+      "user_id": "110",
+      "problem_index": "3",
+      "verdict": "WA",
+      "submitted_seconds": 6524
+    },
+    "9466433a0b08a359ec76679da2e31180": {
+      "user_id": "43",
+      "problem_index": "6",
+      "verdict": "WA",
+      "submitted_seconds": 6580
+    }
+  },
+  "users": {
+    "107": {
+      "name": "邀请赛铁牌发现自己是弱鸡于是天天加训累得晚上0721幻想守铁摄铜",
+      "college": "CAFUC",
+      "is_exclude": false,
+      "first_bloods": []
+    },
+    "109": {
+      "name": "叭呐呐能量",
+      "college": "CAFUC",
+      "is_exclude": false,
+      "first_bloods": [
+        5
+      ]
+    },
+    "4": {
+      "name": "江浩",
+      "college": "CAFUC",
+      "is_exclude": false,
+      "first_bloods": [
+        2,
+        4
+      ]
+    },
+    "110": {
+      "name": "这少一个气球",
+      "college": "CAFUC",
+      "is_exclude": false,
+      "first_bloods": []
+    },
+    "43": {
+      "name": "小卖部投资人",
+      "college": "CAFUC",
+      "is_exclude": false,
+      "first_bloods": [
+        1
+      ]
+    },
+    "12": {
+      "name": "yumi粥",
+      "college": "CAFUC",
+      "is_exclude": false,
+      "first_bloods": []
+    },
+    "111": {
+      "name": "队里有神，但是原神",
+      "college": "CAFUC",
+      "is_exclude": false,
+      "first_bloods": []
+    },
+    "8": {
+      "name": "suancaibaozii",
+      "college": "CAFUC",
+      "is_exclude": false,
+      "first_bloods": []
+    }
+  }
+}

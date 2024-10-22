@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <link rel="shortcut icon" href="favicon.ico">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>CAFUCOJ在线滚榜系统</title>
+        <link type="text/css" rel="stylesheet" href="libs/style/bootstrap.min.css">
+        <link type="text/css" rel="stylesheet" href="libs/style/sticky-footer.css">
+        <link type="text/css" rel="stylesheet" href="css/main.css">
+    </head>
+
+    <body class="app">
+
+        <!-- top navbar -->
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand"
+                       id="title">
+                        CAFUCOJ 在线滚榜系统
+                    </a>
+                </div>
+                <!-- <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div> -->
+            </div>
+        </nav>
+
+         <!-- page content -->
+        <div class="rank-list" style="display:none">
+            <div id="rank-{{$index}}" class="rank-list-item clearfix" v-for="team in ranks" track-by="user_id">
+                <div class="rank">{{ team.rank_show }}</div>
+                <div class="content">
+                    <div class="name">{{ users[team.user_id].college }}--{{ users[team.user_id].name }}</div>
+                    <ul class="problems">
+                        <li v-for="n in p_count" class="{{team.problem[n+1]|problemStatus}} p-{{n+1}} item">
+                            <div class="{{team.problem[n+1]|problemStatus}} p-content">{{team.problem[n+1] | submissions}}</div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="penalty">{{ team.penalty | toMinutes }}</div>
+                <div class="solved">{{ team.score }}</div>
+            </div>
+        </div>
+
+<!--         <pre style="margin:50px 10px;">{{ $data | json }}</pre>-->
+<!--         配置参数表单 -->
+        <div class="container" style="margin-top: -30px;">
+            <h3 style="color: whitesmoke;">配置参数</h3>
+            <form id="config-form">
+
+                <div class="form-group">
+                    <label for="contest_name" style="color: lightskyblue;">比赛名称</label>
+                    <input type="text" class="form-control" id="contest_name" placeholder="请输入比赛名称" style="color: lightskyblue;">
+                </div>
+                <div class="form-group">
+                    <label for="frozen_seconds" style="color: lightskyblue;">冻结时间（秒）</label>
+                    <input type="number" class="form-control" id="frozen_seconds" placeholder="例如：7200" style="color: lightskyblue;">
+                </div>
+                <div class="form-group">
+                    <label for="problem_count" style="color: lightskyblue;">问题数量</label>
+                    <input type="number" class="form-control" id="problem_count" placeholder="例如：8" style="color: lightskyblue;">
+                </div>
+                <div class="form-group">
+                    <label for="contest_start_time" style="color: lightskyblue;">比赛开始时间</label>
+                    <input type="text" class="form-control" id="contest_start_time"
+                           placeholder="例如：2023-12-23 01:00:00+00" style="color: lightskyblue;">
+                </div>
+                <div class="form-group">
+                    <label for="problem_ids" style="color: lightskyblue;">问题 ID 列表（用逗号分隔）</label>
+                    <input type="text" class="form-control" id="problem_ids"
+                           placeholder="(编号按实际题目顺序)例如:58,59,60,61,62,63,64,65" style="color: lightskyblue;">
+                </div>
+                <div class="form-group">
+                    <a href="https://cafucoj.com/public/website/1.json" target="_blank" style="color: lightskyblue;">访问示例 URL:https://cafucoj.com/public/website/1.json</a>
+                </div>
+            </form>
+        </div>
+
+        <!-- sticky footer -->
+        <footer class="footer">
+            <div class="container clearfix" style="margin-top: -8px;">
+                <p class="text-muted pull-left">
+                    <textarea id="input-data" cols="100" rows="4"
+                              placeholder="粘贴JSON数据或URL( 无法加载请填以上参数进行数据清洗，JSON不含以上字段必填！)&#13;&#10;有问题联系作者qq:1515122903或访问ACM1212&#13;&#10;tips:&#13;&#10;建议使用谷歌和火狐浏览器，使用方向键->进行滚榜，可加载示例数据查看效果~"
+                    style="color: green;"></textarea>
+                </p>
+                <p class="text-muted pull-left" style="margin-left: 10px;">
+                    <button onclick="loadDataNeedDoubleCheck()">加载数据</button>
+                </p>
+                <p class="text-muted pull-left" style="margin-left: 10px;">
+                    <button onclick="loadExampleData()">加载示例数据</button>
+                </p>
+                <p class="text-muted pull-left" style="margin-left: 10px;">
+                    <button onclick="clearCacheNeedDoubleCheck()">清空缓存</button>
+                </p>
+            </div>
+        </footer>
+
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script type="text/javascript" src="libs/js/jquery.min.js"></script>
+        <script type="text/javascript" src="libs/js/underscore-min.js"></script>
+        <script type="text/javascript" src="libs/js/jquery.scrollTo.min.js"></script>
+        <script type="text/javascript" src="libs/js/vue.1.js"></script>
+        <script type="text/javascript" src="hiho-resolver.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>
